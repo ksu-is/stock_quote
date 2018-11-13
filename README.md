@@ -37,3 +37,4 @@ Allows multiple portfolios to be created and used. They are created as directori
 When using --influx, influxdb most be running on the target server and you must have a valid user and passwd. Graphs can be created using grafana (and other tools) by using influxdb as a datasource.
 
 --read supports importing transactions from an exported google finance portfolio csv file.
+Will be revised by Darien Clark
