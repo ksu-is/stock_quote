@@ -1,5 +1,8 @@
 # stock_quote
 python script for getting stock quotes, calculating gains and losses and optionally recording to a time series database (influxdb).
+This code will be run from the command line inside the stock directory.
+To run this code, the command line must be initialized by using the python3 command then running the stock quote script. 
+Command Line Inputs:
 
 usage: stock_quote [-h] [-a ADD [ADD ...]] [-d DELETE [DELETE ...]] [-g] [-G]
                    [-i INFLUX [INFLUX ...]] [-o] [-p PORTFOLIO]
@@ -37,3 +40,4 @@ Allows multiple portfolios to be created and used. They are created as directori
 When using --influx, influxdb most be running on the target server and you must have a valid user and passwd. Graphs can be created using grafana (and other tools) by using influxdb as a datasource.
 
 --read supports importing transactions from an exported google finance portfolio csv file.
+Edited by Darien Clark
